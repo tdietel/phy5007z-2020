@@ -36,7 +36,7 @@ void ana()
   int evno = 0;
   while (reader.Next()) {
 
-    cout << "Event " << evno << ": " << hdr->GetNPrim() << "primaries" << endl;
+    cout << "Event " << evno << ": " << hdr->GetNPrim() << " primaries" << endl;
 
     cout << trdhits.GetSize() << endl;
 
