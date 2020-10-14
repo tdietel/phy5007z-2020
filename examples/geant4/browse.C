@@ -1,4 +1,7 @@
 
+// ====================================================================
+// This macro opens the kinematics and a few hit files. It also starts
+// a TBrowser to explore the contents interactively.
 
 void browse()
 {
