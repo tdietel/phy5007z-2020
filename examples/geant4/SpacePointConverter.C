@@ -2,11 +2,11 @@
 class SpacePointConverter
 {
 private:
-  o2::trd::TRDGeometry* geo;
+  o2::trd::Geometry* geo;
 
 public:
   SpacePointConverter() {
-    geo = o2::trd::TRDGeometry::instance();
+    geo = o2::trd::Geometry::instance();
     geo->createPadPlaneArray();
   }
 

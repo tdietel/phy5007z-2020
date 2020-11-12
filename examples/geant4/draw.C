@@ -39,8 +39,8 @@ void draw()
   // ----------------------------------------------------------------------
   // instantiate the class that handles all the data access
   // auto dman = DataManager("./");
-  //auto dman = DataManager("data/");
-  auto dman = DataManager("/alice/share/simdata/");
+  auto dman = DataManager("data/");
+  //auto dman = DataManager("/alice/share/simdata/");
 
   // ----------------------------------------------------------------------
   // create output objects

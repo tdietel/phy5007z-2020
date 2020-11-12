@@ -69,7 +69,7 @@ public:
 
       cout << "## Time frame " << tfno << endl;
 
-      iEvent = 1;
+      iEvent = 0;
       evno = 0;
       tfno++;
       return true;
